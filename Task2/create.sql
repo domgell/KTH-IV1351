@@ -1,3 +1,5 @@
+-- Automatically generated with Astah
+
 CREATE TABLE instructor (
  instructor_id  SERIAL NOT NULL,
  can_teach_ensemble BOOLEAN NOT NULL,
