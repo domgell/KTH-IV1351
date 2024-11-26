@@ -76,3 +76,4 @@ INSERT INTO instrument (instrument_type, brand, number_available, renting_price)
   ('Trumpet', 'Bach', 9, 20.00),
   ('Clarinet', 'Buffet', 11, 18.50),
   ('Trombone', 'Yamaha', 5, 22.00);
+
