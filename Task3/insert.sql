@@ -55,7 +55,7 @@ VALUES
 ('2024-11-10', 2, 'individual'),
 ('2024-11-27', 2, 'ensemble'),
 ('2024-11-20', 2, 'group'),
-('2024-11-01', 1, 'group'),
+('2024-11-01', 1, 'group'), 
 ('2024-11-04', 2, 'ensemble'),
 ('2024-11-09', 3, 'individual'),
 ('2024-11-13', 4, 'group'),
@@ -81,7 +81,7 @@ VALUES
 INSERT INTO ensemble_lesson (lesson_id, genre, max_participants, min_participants, scheduled_time)
 VALUES
     (1, 'Classical', 20, 5, '10:00:00'),
-    (5, 'Jazz', 15, 5, '14:00:00'),       
+    (5, 'Jazz', 10, 5, '14:00:00'),       
     (6, 'Rock', 8, 2, '16:00:00'),
     (11, 'Jazz', 15, 5, '17:00:00'),
     (14, 'Classical', 20, 10, '8:00:00'),
