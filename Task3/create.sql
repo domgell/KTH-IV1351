@@ -104,7 +104,7 @@ CREATE TABLE group_lesson (
 CREATE TABLE individual_lesson (
     individual_id SERIAL NOT NULL,
     lesson_id SERIAL NOT NULL UNIQUE,
-    appointment_time TIME(10) NOT NULL,
+    appointment_time TIME NOT NULL,
     instrument_type VARCHAR(500) NOT NULL,
     
     CONSTRAINT PK_individual_lesson PRIMARY KEY (individual_id),
